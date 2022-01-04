@@ -7,6 +7,7 @@ The [calculate-pi-visual](https://github.com/HermanErKu/calculate-pi-visual-outp
 
 # How to use
 These scripts are very simple and easy to use
+All of the scripts were made in python 3.9, and if you have any problems running them, make sure your pc has python 3.9 installed
 ## [calculate-pi](https://github.com/HermanErKu/calculate-pi-visual-output/blob/main/calculate-pi.py)
 If you have python installed on your pc, you should be able to run this script without installing anything more. Just download the script and double click it. To get a more excact result, you can change the "points" variable in the script to something higher.
 
