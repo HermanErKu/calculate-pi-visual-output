@@ -1,13 +1,13 @@
 import random  #imports random library
 import pygame  #imports pygame library
 
+pointsAsk = input("How many points...  ")  #number of points  (the more points the more acurate)
+points = int(pointsAsk)  #turns the points to an integer
+
 screen = pygame.display.set_mode((500, 500))  #creates 500x500px window
 pygame.display.set_caption('Visual Dots')  #titles the window "visual dots"
 screen.fill((234,212,252)) #creates background color for the window
 pygame.init()  #initiates pygame (for text)
-
-pointsAsk = input("Points  ")  #number of points  (the more points the more acurate)
-points = int(pointsAsk)  #turns the points to an integer
 
 circlePoint = 0  #resets points
 totalPoints = 0  #resets points
